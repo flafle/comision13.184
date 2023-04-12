@@ -1,0 +1,103 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Golos+Text&family=Inconsolata:wght@200;300;400;500;600&family=Josefin+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*MENU*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.menu li{
+    list-style-type: none;
+    padding: 20px 15px;
+   
+}
+
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+/*MENU*/
+
+
+/*MAIN*/
+
+.seccionUno {
+    height: 400px;
+    width: 100%;
+    background-image: url("./assets/portada\ header.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    padding: 50px 30px;
+    background-color: #DAB1A8 ;
+}
+
+.carousel-inner {
+    height: 500px;
+}
+.contenedor {
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: solid 1px #a13;
+    box-shadow: 2px 3px 5px #a13;
+}
+.contenedor h3 {
+    text-transform: uppercase;
+    
+}
+
+form input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+.caja {
+    display: flex;
+    flex-direction: row;
+}
+
+.cajaUno 
+.horarios
+.contact-adress{
+          
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+    
+}
+
+.btn {
+    background-color: #a13;
+}
+
+.form-group input {
+    font-size: 10px;
+}
+
